@@ -2,12 +2,12 @@
 ## Полезные ссылки
 Для начала хотелось бы отметить, что кроме данного, сообщество rusEFI располагает несколькими более подробными и "классическими" пособиями по подключению, запуску и настройке двигателя.  
 **Подключение**  
-[HOWTO-Get-Running a universal ECU](HOWTO-Get-Running)
-[HOWTO-Get-Running a Plug-and-play ECU](HOWTO-Get-Running-PnP)
+[HOWTO-Get-Running a universal ECU](HOWTO-Get-Running)  
+[HOWTO-Get-Running a Plug-and-play ECU](HOWTO-Get-Running-PnP)  
 
 **Настройка**  
-[HOWTO-Start-An-Engine](HOWTO-Start-An-Engine)
-[Get-tuning-with-TunerStudio-and-your-rusEFI](Get-tuning-with-TunerStudio-and-your-rusEFI)
+[HOWTO-Start-An-Engine](HOWTO-Start-An-Engine)  
+[Get-tuning-with-TunerStudio-and-your-rusEFI](Get-tuning-with-TunerStudio-and-your-rusEFI)  
 
 ## Подключить и настроить всё необходимое
 Если для вашего автомобиля [существует PnP блок rusEFI](https://github.com/rusefi/rusefi/wiki/Hellen-One-Platform), то вам повезло и не придётся подключать всё самостоятельно. В этом случае предлагается сразу перейти [к разделу настроек софта](#настроить-софт-для-запуска). 
@@ -87,7 +87,7 @@ rusEFI работает с широкополосными ДК, причём в�
 
 **VR-датчик** состоит из катушки провода, обёрнутой вокруг магнита. При приближении или удалении ферромагнитного объекта (например, зубчатого колеса) к магниту происходит изменение магнитного поля через катушку, что по закону Фарадея индуцирует в ней [электрический ток](FAQ-Basic-Wiring-and-Connections.md#vr-variable-reluctance-sensors).
 
-**Hall-датчик** основан на эффекте Холла - явление, основанное на образовании [электрического сигнала](https://github.com/rusefi/rusefi/wiki/FAQ-Basic-Wiring-and-Connections#hall-effect-sensors) в полупроводнике, находящемся в магнитном поле.
+**Hall-датчик** основан на эффекте Холла - явлении образования [электрического тока](https://github.com/rusefi/rusefi/wiki/FAQ-Basic-Wiring-and-Connections#hall-effect-sensors) в полупроводнике, находящемся в магнитном поле.
 
 Блоки rusEFI могут использовать в качестве основного триггера как VR, так и датчик Холла.
 
