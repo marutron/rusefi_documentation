@@ -109,7 +109,7 @@ rusEFI [умеет работать](Idle-Control.md) с 4-х контактны
 ## Настроить софт для запуска 
 ### Калибровка датчиков
 Датчики удобно настраивать в меню `Sensors` программы TunerStudio. В выпадающем списке будут представлены все ваши датчики.
-![TS Sensors Menu](Images/TS/easy-start/sensors_menu.png)
+![TS-Sensors_menu](Images/TS/easy-start/sensors_menu.png)
 
 
 ### Калибровка дроссельной заслонки 
